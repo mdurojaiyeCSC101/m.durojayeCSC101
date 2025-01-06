@@ -20,6 +20,8 @@ fn main() {
     println!("array is {:?}",arr3);//-> THE {:?} syntax of the println!() function is used to print all values in the array
     println!("array size is :{}",arr3.len());//->.len() calculates the number of elements in the array
 
+    //MY EXAMPLE
+    
   let vbox = ["ben 10","tom&jerry","spider-man","lab-rats","Mighty-Med","Kick-init"];
   println!("\n This array is made up of string slices");
   println!(" The Best TV shows of my time are {:?}",vbox);

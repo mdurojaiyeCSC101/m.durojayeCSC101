@@ -18,3 +18,4 @@ fn guy(a:&mut i32) {
     *a = *a * 5;
     println!("a is {a}");
 }
+// THIS IS WHERE a = X and X = a
