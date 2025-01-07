@@ -1,0 +1,13 @@
+use std::fs::File;
+use std::io::Write;
+
+fn main() {
+    // Drinks data manually concatenated into a long string (wrong approach)
+    let drinks_data = "Lager: 33 Export, Desperados, Goldberg, Gulder, Heineken, Star; Stout: Legend, Turbo King, Williams; Non-Alcoholic: Maltina, Amstel Malta, Malta Gold, Fayrouz";
+
+    // Write data directly to a file without parsing properly
+    let mut file = File::create("drinks.txt").expect("Unable to create file");
+    file.write_all(drinks_data.as_bytes()).expect("Unable to write data");
+
+    println!("Drinks data saved incorrectly to 'drinks.txt'.");
+}
