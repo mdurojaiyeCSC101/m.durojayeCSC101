@@ -8,6 +8,7 @@ fn main(){
    //Sum of Amount
    let sum=toshiba + mac + hp + dell + acer;
    println!("Sum of Amount {}", sum);
-   let average = sum / 10.0;
+   //Average of sum
+   let average = sum / ;
    println!("Average Sales = {}", average)
 }
